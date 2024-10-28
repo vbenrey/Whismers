@@ -1,7 +1,7 @@
 const images = [
-    "/images/cat 1.jpg",
-    "/images/cat 2.jpg",
-    "/images/cat 3.png",
+    "images/cat 1.jpg",
+    "images/cat 2.jpg",
+    "images/cat 3.png",
 ];
 
 const names = [

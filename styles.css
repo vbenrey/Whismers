@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jua&display=swap');
+
+#whismers {
+    width: 17vw;
+    height: auto;
+    margin-left: 1rem;
+}
+
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+#banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 0.6em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: -20px;
+}
+
+nav {
+    font-size: 1.3em;
+    margin-right: 5rem;
+    margin-bottom: -20px;
+}
+
+nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgba(68, 54, 75, 1);
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: rgba(197, 164, 206, 1);
+    transition: 0.7s;
+    font-size: 1.1em;
+}
+
+hr {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#sidebar {
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    padding-top: 1.5rem;
+    margin-top: 1em;
+}
+
+#review {
+    width: 60%;
+    max-width: 600px;
+    margin-bottom: 1em;
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.482);
+    border-radius: 15px;
+}
+
+#reviews h2,
+#stars {
+    margin-bottom: 0.6em;
+}
+
+#name {
+    color: rgb(177, 110, 196);
+}
+
+#stars {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7em;
+}
+
+#stars img {
+    width: 8rem;
+    height: auto;
+}
+
+#stars p {
+    margin-left: 1em;
+}
+
+#reviewText {
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#slideshowtext {
+    display: block;
+    position: absolute;
+    top: 390px;
+    margin-bottom: 1em;
+    color: rgb(123, 82, 135);
+}
+
+#slideshowImages {
+    margin-top: 1rem;
+    width: 450px;
+    min-width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid rgba(197, 164, 206, 0.703) 7px;
+}
+
+#slideshow {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows {
+    width: 8%;
+    height: 100%;
+    margin: 0 10px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#left:hover {
+    content: url('/images/purpLeft.jpg');
+    transition: 0.7s;
+    width: 11%;
+}
+
+#right:hover {
+    content: url('/images/purpRight.jpg');
+    transition: 0.7s;
+    width: 11%;
+}
+
+#separator,
+#separatorProducts {
+    width: 100%;
+    background-color: rgba(197, 164, 206, 1);
+    color: white;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.6);
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2rem;
+    box-shadow: 0px 6px 8px rgba(69, 7, 86, 0.208);
+}
+
+#separatorProducts {
+    margin-top: -10px;
+}
+
+#products {
+    padding: 2rem 1rem;
+}
+
+#itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"] {
+    border: 3px solid rgba(0, 0, 0, 0.285);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.522);
+}
+
+#search {
+    background-color: rgb(246, 246, 246);
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+    margin-left: 0.8rem;
+}
+
+#searchImg {
+    width: 2.3rem;
+    height: auto;
+    margin-left: 1em;
+}
+
+.items {
+    margin-top: 2rem;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.482);
+}
+
+.items div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.items div img {
+    width: 40%;
+    height: auto;
+}
+
+.grayOut {
+    color: gray;
+}
+
+#stayTune {
+    color: gray;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+footer {
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+}
+
+hr {
+    margin-bottom: 1.3em;
+}
+
+#account,
+#log-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#account h2 {
+    margin-top: 1em;
+}
+
+#profile {
+    width: 11rem;
+    height: 100%;
+    align-self: center;
+}
+
+span {
+    color: rgb(172, 81, 198, 100);
+}
+
+#bio {
+    margin-top: 1em;
+    padding: 3em 4em;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.482);
+    margin-bottom: 6rem;
+    line-height: 2.2;
+}
+
+#log-inLogo {
+    width: 20rem;
+    height: 100%;
+}
+
+#submit {
+    padding: 1em;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+#submit:hover {
+    padding: 1.3em;
+    transition: 0.7s;
+}
+
+#intro {
+    text-align: center;
+    
+}
+
+form {
+    text-align: left;
+    line-height: 2.3;
+    padding: 2em 3em;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.482);
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 10px;
+}
+
+form div {
+    display: block;
+}
+
+#initialGender {
+    margin-top: 1.4em;
+}
+
+#mainPage {
+    text-decoration: none;
+    color:  rgb(161, 106, 176);
+}
+
+#bottom {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

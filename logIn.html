@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whismers Log-In</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id = "log-in">
+        <img id="log-inLogo" src="/images/logo.jpg" alt="whismers logo">
+        <form>
+            <h3 id ="intro">Registration Page</h3>
+            <div>
+                <label for="initialName">Full Name: </label>
+                <input required name="initialName" id="initialName" type="text" placeholder="Jane Doe">
+            </div>
+            <div>
+                <label for="dateToday">Date of Registration: </label>
+                <input required name="dateToday" id="dateToday" type="date">
+            </div>
+            <div>
+                <label for="initialAddress">Address: </label>
+                <input required name="initialAddress" id="initialAddress" type="text" placeholder="Your Home Address">
+            </div>
+            <div>
+                <label for="initialNum">Phone Number: </label>
+                <input required name="initialNum" id="initialNum" type="text" placeholder="1234567890">
+            </div>
+            <div>
+                <label for="initialEmail">Email: </label>
+                <input required name="initialEmail" id="initialEmail" type="email" placeholder="JaneDoe@gmail.com">
+            </div>
+            <div>
+                <label for="initialGender">Gender: </label>
+                <select name="initialGender" id="initialGender">
+                    <option value="start">Choose an Option</option>
+                    <option value="fem">Female</option>
+                    <option value="male">Male</option>
+                    <option value="none">Choose not to Say</option>
+                </select>
+            </div>
+            <div id = "bottom">
+                <button onclick="editBio()" id="submit" type="submit">Submit</button>
+                <a id="mainPage" href="index.html">Go to Main Page</a>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h4>Bianca Venice L. Ochoa CS - 203 ©</h4>
+    </footer>
+</body>
+</html>

@@ -148,13 +148,13 @@ main {
 }
 
 #left:hover {
-    content: url('/images/purpLeft.jpg');
+    content: url('images/purpLeft.jpg');
     transition: 0.7s;
     width: 11%;
 }
 
 #right:hover {
-    content: url('/images/purpRight.jpg');
+    content: url('images/purpRight.jpg');
     transition: 0.7s;
     width: 11%;
 }

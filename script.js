@@ -1,7 +1,7 @@
 const images = [
-    "https://github.com/vbenrey/Whismers/blob/main/images/cat%201.jpg",
-    "https://github.com/vbenrey/Whismers/blob/main/images/cat%202.jpg",
-    "https://github.com/vbenrey/Whismers/blob/main/images/cat%203.png",
+    "https://images.pexels.com/photos/17706988/pexels-photo-17706988/free-photo-of-furry-cat-in-bow-tie.jpeg",
+    "https://images.pexels.com/photos/22300647/pexels-photo-22300647/free-photo-of-cat-licking-paw.jpeg",
+    "https://images.pexels.com/photos/28990619/pexels-photo-28990619/free-photo-of-four-kittens-eating-sausage-outdoors.jpeg",
 ];
 
 const names = [

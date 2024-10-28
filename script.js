@@ -1,7 +1,7 @@
 const images = [
-    "images/cat 1.jpg",
-    "images/cat 2.jpg",
-    "images/cat 3.png",
+    "https://github.com/vbenrey/Whismers/blob/main/images/cat%201.jpg?raw=true",
+    "https://github.com/vbenrey/Whismers/blob/main/images/cat%202.jpg?raw=true",
+    "https://github.com/vbenrey/Whismers/blob/main/images/cat%203.png?raw=true",
 ];
 
 const names = [

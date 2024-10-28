@@ -113,14 +113,6 @@ main {
     font-weight: 400;
 }
 
-#slideshowtext {
-    display: block;
-    position: absolute;
-    top: 390px;
-    margin-bottom: 1em;
-    color: rgb(123, 82, 135);
-}
-
 #slideshowImages {
     margin-top: 1rem;
     width: 450px;
